@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int r,x,y,s;
+    float a,p;
+    printf("Enter Radius of circle : ");
+    scanf("%d",&r);
+    a=3.14*r*r;
+    p=2 * 3.14 * r;
+    printf("\nArea of circle = %f \n", a);
+    printf("\nPerimeter of circle = %f \n", p);
+    printf("\nEnter length and width : ");
+    scanf("%d%d",&x,&y);
+    a= x * y;
+    p= 2*(x+y);
+    printf("\nArea of rectangle = %f \n", a);
+    printf("\nPerimeter of rectangle = %f \n", p);
+    printf("\nEnter Side of Square : "); 
+    scanf("%d",&s);
+    a= s * s;
+    p= 4 * a;
+    printf("\nArea of Square = %f \n", a);
+    printf("\nPerimeter of Square = %f \n", p);    
+    return 0;
+}
