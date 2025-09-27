@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float principal;
+    scanf("%f",&principal);
+    float rate;
+    scanf("%f",&rate);
+    float time; 
+    scanf("%f",&time);
+    float Amount = principal * ((pow((1 + rate / 100),time)));
+    float CI = Amount - principal;
+
+    printf("%.2f",CI);
+    
+        
+    return 0;
+}
